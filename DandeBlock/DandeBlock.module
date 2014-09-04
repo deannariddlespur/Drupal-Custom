@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * creates a custom block
+ * Implementation of hook_menu().
+ */
+ 
+ function dandeblock_block_info() {
+
+	$blocks['dandeblock'] = array(
+    'info' => t('Dande Custom Block'),
+    // DRUPAL_CACHE_PER_ROLE will be assumed.
+  );
+
+  return $blocks;
+}

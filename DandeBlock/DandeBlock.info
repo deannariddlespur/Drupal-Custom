@@ -1,0 +1,7 @@
+name = "DandeBlock Module"
+description = " Creating a custom block"
+package = Pro Drupal Development
+core =core = 7.x
+files[] = DandeBlock.module
+
+configure=admin/config/content/DandeBlock/settings
