@@ -1,7 +1,5 @@
-name = "DandeBlock Module"
-description = " Creating a custom block"
-package = Pro Drupal Development
-core =core = 7.x
-files[] = DandeBlock.module
+name = "dandeblock"
+description = "Example Block In Code"
+core = "7.x"
+package = "Dandedunit"
 
-configure=admin/config/content/DandeBlock/settings

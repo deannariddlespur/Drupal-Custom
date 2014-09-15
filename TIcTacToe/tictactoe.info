@@ -1,7 +1,0 @@
-name = TicTacToe
-description = "Plays a game"
-package = Pro Drupal Development
-core = 7.x
-files[] = tictactoe.module
-
-configure=admin/config/content/tictactoe/settings
